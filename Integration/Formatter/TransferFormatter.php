@@ -25,9 +25,9 @@ class TransferFormatter implements IFormattter
         $formattedData = [
             'total' => $rawData->getTotal(),
             'user_name_origin' => $rawData->getAccountOrigin()->getName(),
-            'iban_origin' => $rawData->getAccountOrigin()->getAgencyNumber(),
+            'iban_origin' => $rawData->getAccountOrigin()->getIban(),
             'user_name_destination' => $rawData->getAccountDestination()->getName(),
-            'iban_destination' => $rawData->getAccountDestination()->getAgencyNumber(),
+            'iban_destination' => $rawData->getAccountDestination()->getIban(),
         ];
 
         return $formattedData;

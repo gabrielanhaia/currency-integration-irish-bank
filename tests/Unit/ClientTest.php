@@ -35,13 +35,11 @@ class ClientTest extends TestCase
     {
         $accountOrigin = new AccountEntity;
         $accountOrigin->setName('MAIN BANK BRAZIL')
-            ->setAccountNumber(12312421)
-            ->setAgencyNumber(123);
+            ->setIban(12312421);
 
         $accountDestination = new AccountEntity;
         $accountDestination->setName('PEOPLE RECEIVE')
-            ->setAccountNumber(12312421)
-            ->setAgencyNumber(123);
+            ->setIban(12312421);
 
         $transferEntityToBeFormatted = new TransferEntity;
         $transferEntityToBeFormatted->setAccountOrigin($accountOrigin)
