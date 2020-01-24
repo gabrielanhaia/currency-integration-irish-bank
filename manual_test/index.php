@@ -10,13 +10,11 @@ $client = new Client;
 
 $accountOrigin = new AccountEntity;
 $accountOrigin->setName('MAIN BANK BRAZIL')
-    ->setAccountNumber(12312421)
-    ->setAgencyNumber(123);
+    ->setIban(12312421);
 
 $accountDestination = new AccountEntity;
 $accountDestination->setName('PEOPLE RECEIVE')
-    ->setAccountNumber(12312421)
-    ->setAgencyNumber(123);
+    ->setIban(12312421);
 
 $transferEntity = new TransferEntity;
 $transferEntity->setAccountOrigin($accountOrigin)
