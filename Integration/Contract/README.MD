@@ -1,0 +1,1 @@
+Here you can find the abstract classes and interfaces to guarantee the consistence in this package. 

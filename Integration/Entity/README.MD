@@ -1,0 +1,3 @@
+- Here you can find the entities that are used as a DTO (Data Transfer Object).
+- Each entities was build thinking about the data on the API.
+- The Entities are really important, they are the only thing known for the applications that use this package. (and de Client class as well.) 

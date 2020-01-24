@@ -1,0 +1,2 @@
+These classes are responsible for encapsulating the creation of parsers, formatters and requesters.
+I used the simple factory patterns, I don't think Factory Method is necessary in this case, maybe if we have a mock of the API or something like that.

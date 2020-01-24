@@ -1,0 +1,31 @@
+{
+  "name": "currency-fair/integration-irish-bank",
+  "license": "MIT",
+  "description": "The integration example with a Brazilian bank.",
+  "authors": [
+    {
+      "name": "Gabriel Anhaia",
+      "email": "anhaia.gabriel@gmail.com"
+    }
+  ],
+  "require": {
+    "eloquent/enumeration": "^6.0",
+    "guzzlehttp/guzzle": "^6.5",
+    "vlucas/phpdotenv": "^4.1"
+  },
+  "require-dev": {
+    "wanfeiyy/dd": "^1.0",
+    "mockery/mockery": "^1.3",
+    "phpunit/phpunit": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "CurrencyFair\\IntegrationBrazillianBank\\Integration\\": "Integration/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
