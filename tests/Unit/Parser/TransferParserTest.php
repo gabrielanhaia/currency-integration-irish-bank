@@ -4,6 +4,7 @@
 namespace Tests\Unit\Parser;
 
 use CurrencyFair\IntegrationIrishBank\Integration\Entity\ReceiptTransferEntity;
+use CurrencyFair\IntegrationIrishBank\Integration\Exception\InvalidDataParserException;
 use CurrencyFair\IntegrationIrishBank\Integration\Parser\TransferParser;
 use Tests\TestCase;
 
@@ -25,7 +26,7 @@ class TransferParserTest extends TestCase
      */
     public function testErrorConfirmationNumberInvalid(string $dataToBeParsed)
     {
-        $this->expectException(\Exception::class);
+        $this->expectException(InvalidDataParserException::class);
         $this->expectExceptionMessage('Confirmation number invalid.');
 
         $parser = new TransferParser;
