@@ -3,9 +3,9 @@
 
 namespace Tests\Unit\Factory;
 
-use CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Requester\RequesterSimpleFactory;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Requester\RequesterTypeEnum;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Requester\MakeTransfer;
+use CurrencyFair\IntegrationIrishBank\Integration\Factory\Requester\RequesterSimpleFactory;
+use CurrencyFair\IntegrationIrishBank\Integration\Factory\Requester\RequesterTypeEnum;
+use CurrencyFair\IntegrationIrishBank\Integration\Requester\MakeTransfer;
 use GuzzleHttp\Client;
 use Tests\TestCase;
 

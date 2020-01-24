@@ -1,13 +1,13 @@
 <?php
 
 
-namespace CurrencyFair\IntegrationBrazillianBank\Integration\Requester;
+namespace CurrencyFair\IntegrationIrishBank\Integration\Requester;
 
 use GuzzleHttp\Client as GuzzleClient;
 
 /**
  * Class AbstractRequester
- * @package CurrencyFair\IntegrationBrazillianBank\Integration\Requester
+ * @package CurrencyFair\IntegrationIrishBank\Integration\Requester
  *
  * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */

@@ -1,13 +1,13 @@
 <?php
 
 
-namespace CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Formatter;
+namespace CurrencyFair\IntegrationIrishBank\Integration\Factory\Formatter;
 
 use Eloquent\Enumeration\AbstractEnumeration;
 
 /**
  * Class Formatter
- * @package CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Formatter
+ * @package CurrencyFair\IntegrationIrishBank\Integration\Factory\Formatter
  *
  * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  * @method static FORMATTER_TRANSACTION()

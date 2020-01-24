@@ -1,15 +1,15 @@
 <?php
 
 
-namespace CurrencyFair\IntegrationBrazillianBank\Integration\Parser;
+namespace CurrencyFair\IntegrationIrishBank\Integration\Parser;
 
 
-use CurrencyFair\IntegrationBrazillianBank\Integration\Contract\IParser;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Entity\ReceiptTransferEntity;
+use CurrencyFair\IntegrationIrishBank\Integration\Contract\IParser;
+use CurrencyFair\IntegrationIrishBank\Integration\Entity\ReceiptTransferEntity;
 
 /**
  * Class TransferParser
- * @package CurrencyFair\IntegrationBrazillianBank\Integration\Parser
+ * @package CurrencyFair\IntegrationIrishBank\Integration\Parser
  *
  * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */

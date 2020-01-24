@@ -3,7 +3,7 @@
 
 namespace Tests\Unit\Requester;
 
-use CurrencyFair\IntegrationBrazillianBank\Integration\Requester\MakeTransfer;
+use CurrencyFair\IntegrationIrishBank\Integration\Requester\MakeTransfer;
 use GuzzleHttp\Client;
 use Tests\TestCase;
 

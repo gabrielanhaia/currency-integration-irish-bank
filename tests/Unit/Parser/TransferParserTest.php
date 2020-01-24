@@ -3,8 +3,8 @@
 
 namespace Tests\Unit\Parser;
 
-use CurrencyFair\IntegrationBrazillianBank\Integration\Entity\ReceiptTransferEntity;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Parser\TransferParser;
+use CurrencyFair\IntegrationIrishBank\Integration\Entity\ReceiptTransferEntity;
+use CurrencyFair\IntegrationIrishBank\Integration\Parser\TransferParser;
 use Tests\TestCase;
 
 /**

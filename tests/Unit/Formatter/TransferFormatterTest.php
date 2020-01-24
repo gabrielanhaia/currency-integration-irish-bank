@@ -3,9 +3,9 @@
 
 namespace Tests\Unit\Formatter;
 
-use CurrencyFair\IntegrationBrazillianBank\Integration\Entity\AccountEntity;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Entity\TransferEntity;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Formatter\TransferFormatter;
+use CurrencyFair\IntegrationIrishBank\Integration\Entity\AccountEntity;
+use CurrencyFair\IntegrationIrishBank\Integration\Entity\TransferEntity;
+use CurrencyFair\IntegrationIrishBank\Integration\Formatter\TransferFormatter;
 use Tests\TestCase;
 
 /**

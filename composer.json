@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "CurrencyFair\\IntegrationBrazillianBank\\Integration\\": "Integration/"
+      "CurrencyFair\\IntegrationIrishBank\\Integration\\": "Integration/"
     }
   },
   "autoload-dev": {

@@ -1,14 +1,14 @@
 <?php
 
 
-namespace CurrencyFair\IntegrationBrazillianBank\Integration\Formatter;
+namespace CurrencyFair\IntegrationIrishBank\Integration\Formatter;
 
-use CurrencyFair\IntegrationBrazillianBank\Integration\Contract\IFormattter;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Entity\TransferEntity;
+use CurrencyFair\IntegrationIrishBank\Integration\Contract\IFormattter;
+use CurrencyFair\IntegrationIrishBank\Integration\Entity\TransferEntity;
 
 /**
  * Class TransferFormatter
- * @package CurrencyFair\IntegrationBrazillianBank\Integration\Formatter
+ * @package CurrencyFair\IntegrationIrishBank\Integration\Formatter
  *
  * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */

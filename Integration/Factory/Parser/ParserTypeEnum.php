@@ -1,13 +1,13 @@
 <?php
 
 
-namespace CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Parser;
+namespace CurrencyFair\IntegrationIrishBank\Integration\Factory\Parser;
 
 use Eloquent\Enumeration\AbstractEnumeration;
 
 /**
  * Class ParserTypeEnum
- * @package CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Parser
+ * @package CurrencyFair\IntegrationIrishBank\Integration\Factory\Parser
  *
  * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  * @method static PARSER_TRANSACTION()

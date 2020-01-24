@@ -1,12 +1,12 @@
 <?php
 
-namespace CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Parser;
+namespace CurrencyFair\IntegrationIrishBank\Integration\Factory\Parser;
 
-use CurrencyFair\IntegrationBrazillianBank\Integration\Parser\TransferParser;
+use CurrencyFair\IntegrationIrishBank\Integration\Parser\TransferParser;
 
 /**
  * Class ParserFactory
- * @package CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Parser
+ * @package CurrencyFair\IntegrationIrishBank\Integration\Factory\Parser
  *
  * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */

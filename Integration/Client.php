@@ -1,10 +1,10 @@
 <?php
 
 
-namespace CurrencyFair\IntegrationBrazillianBank\Integration;
+namespace CurrencyFair\IntegrationIrishBank\Integration;
 
-use CurrencyFair\IntegrationBrazillianBank\Integration\Entity\TransferEntity;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Factory\{Formatter\FormatterTypeEnum,
+use CurrencyFair\IntegrationIrishBank\Integration\Entity\TransferEntity;
+use CurrencyFair\IntegrationIrishBank\Integration\Factory\{Formatter\FormatterTypeEnum,
     Formatter\FormatterSimpleFactory,
     Parser\ParserSimpleFactory,
     Parser\ParserTypeEnum,
@@ -13,7 +13,7 @@ use CurrencyFair\IntegrationBrazillianBank\Integration\Factory\{Formatter\Format
 
 /**
  * Class Client (This class is following the Facade pattern).
- * @package CurrencyFair\IntegrationBrazillianBank\Integration
+ * @package CurrencyFair\IntegrationIrishBank\Integration
  *
  * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */

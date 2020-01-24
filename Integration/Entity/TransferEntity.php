@@ -1,11 +1,11 @@
 <?php
 
 
-namespace CurrencyFair\IntegrationBrazillianBank\Integration\Entity;
+namespace CurrencyFair\IntegrationIrishBank\Integration\Entity;
 
 /**
  * Class TransferEntity
- * @package CurrencyFair\IntegrationBrazillianBank\Integration
+ * @package CurrencyFair\IntegrationIrishBank\Integration
  *
  * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */

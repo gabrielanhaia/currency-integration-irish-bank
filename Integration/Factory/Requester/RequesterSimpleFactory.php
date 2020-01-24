@@ -1,14 +1,14 @@
 <?php
 
-namespace CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Requester;
+namespace CurrencyFair\IntegrationIrishBank\Integration\Factory\Requester;
 
-use CurrencyFair\IntegrationBrazillianBank\Integration\Parser\TransferParser;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Requester\MakeTransfer;
+use CurrencyFair\IntegrationIrishBank\Integration\Parser\TransferParser;
+use CurrencyFair\IntegrationIrishBank\Integration\Requester\MakeTransfer;
 use GuzzleHttp\Client;
 
 /**
  * Class RequesterSimpleFactory
- * @package CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Requester
+ * @package CurrencyFair\IntegrationIrishBank\Integration\Factory\Requester
  *
  * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */

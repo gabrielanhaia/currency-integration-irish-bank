@@ -3,9 +3,9 @@
 
 namespace Tests\Unit\Factory;
 
-use CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Formatter\FormatterSimpleFactory;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Formatter\FormatterTypeEnum;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Formatter\TransferFormatter;
+use CurrencyFair\IntegrationIrishBank\Integration\Factory\Formatter\FormatterSimpleFactory;
+use CurrencyFair\IntegrationIrishBank\Integration\Factory\Formatter\FormatterTypeEnum;
+use CurrencyFair\IntegrationIrishBank\Integration\Formatter\TransferFormatter;
 use Tests\TestCase;
 
 /**

@@ -1,13 +1,13 @@
 <?php
 
 
-namespace CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Requester;
+namespace CurrencyFair\IntegrationIrishBank\Integration\Factory\Requester;
 
 use Eloquent\Enumeration\AbstractEnumeration;
 
 /**
  * Class RequesterTypeEnum
- * @package CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Requester
+ * @package CurrencyFair\IntegrationIrishBank\Integration\Factory\Requester
  *
  * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  * @method static REQUESTER_MAKE_TRANSACTION()

@@ -3,9 +3,9 @@
 
 namespace Tests\Unit\Factory;
 
-use CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Parser\ParserSimpleFactory;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Parser\ParserTypeEnum;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Parser\TransferParser;
+use CurrencyFair\IntegrationIrishBank\Integration\Factory\Parser\ParserSimpleFactory;
+use CurrencyFair\IntegrationIrishBank\Integration\Factory\Parser\ParserTypeEnum;
+use CurrencyFair\IntegrationIrishBank\Integration\Parser\TransferParser;
 use Tests\TestCase;
 
 /**

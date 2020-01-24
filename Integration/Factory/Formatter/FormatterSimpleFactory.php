@@ -1,12 +1,12 @@
 <?php
 
-namespace CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Formatter;
+namespace CurrencyFair\IntegrationIrishBank\Integration\Factory\Formatter;
 
-use CurrencyFair\IntegrationBrazillianBank\Integration\Formatter\TransferFormatter;
+use CurrencyFair\IntegrationIrishBank\Integration\Formatter\TransferFormatter;
 
 /**
  * Class FormatterFactory
- * @package CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Formatter
+ * @package CurrencyFair\IntegrationIrishBank\Integration\Factory\Formatter
  *
  * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */

@@ -3,19 +3,19 @@
 
 namespace Tests;
 
-use CurrencyFair\IntegrationBrazillianBank\Integration\Client;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Entity\AccountEntity;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Entity\ReceiptTransferEntity;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Entity\TransferEntity;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Formatter\FormatterSimpleFactory;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Formatter\FormatterTypeEnum;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Parser\ParserSimpleFactory;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Parser\ParserTypeEnum;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Requester\RequesterSimpleFactory;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Factory\Requester\RequesterTypeEnum;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Formatter\TransferFormatter;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Parser\TransferParser;
-use CurrencyFair\IntegrationBrazillianBank\Integration\Requester\MakeTransfer;
+use CurrencyFair\IntegrationIrishBank\Integration\Client;
+use CurrencyFair\IntegrationIrishBank\Integration\Entity\AccountEntity;
+use CurrencyFair\IntegrationIrishBank\Integration\Entity\ReceiptTransferEntity;
+use CurrencyFair\IntegrationIrishBank\Integration\Entity\TransferEntity;
+use CurrencyFair\IntegrationIrishBank\Integration\Factory\Formatter\FormatterSimpleFactory;
+use CurrencyFair\IntegrationIrishBank\Integration\Factory\Formatter\FormatterTypeEnum;
+use CurrencyFair\IntegrationIrishBank\Integration\Factory\Parser\ParserSimpleFactory;
+use CurrencyFair\IntegrationIrishBank\Integration\Factory\Parser\ParserTypeEnum;
+use CurrencyFair\IntegrationIrishBank\Integration\Factory\Requester\RequesterSimpleFactory;
+use CurrencyFair\IntegrationIrishBank\Integration\Factory\Requester\RequesterTypeEnum;
+use CurrencyFair\IntegrationIrishBank\Integration\Formatter\TransferFormatter;
+use CurrencyFair\IntegrationIrishBank\Integration\Parser\TransferParser;
+use CurrencyFair\IntegrationIrishBank\Integration\Requester\MakeTransfer;
 
 /**
  * Class ClientTest
