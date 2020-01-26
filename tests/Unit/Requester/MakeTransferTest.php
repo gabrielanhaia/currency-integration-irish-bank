@@ -22,9 +22,9 @@ class MakeTransferTest extends TestCase
     public function testErrorBaseUrlNotDefine()
     {
         $this->expectException(\Exception::class);
-        $this->expectExceptionMessage('Base url api must be on the .ENV (API_BRAZILIAN_BANK_BASE_URL)');
+        $this->expectExceptionMessage('Base url api must be on the .ENV (API_IRISH_BANK_BASE_URL)');
 
-        putenv('API_BRAZILIAN_BANK_BASE_URL=');
+        putenv('API_IRISH_BANK_BASE_URL=');
         $makeTransferRequester = new MakeTransfer(new Client);
         $makeTransferRequester->makeTransfer(['DATA_TO_BE_SENT']);
     }
@@ -39,7 +39,7 @@ class MakeTransferTest extends TestCase
 
         $postData = ['POST_DATA' => 'TEST'];
         $configBaseUrl = 'BASE_URL_TEST';
-        putenv("API_BRAZILIAN_BANK_BASE_URL={$configBaseUrl}");
+        putenv("API_IRISH_BANK_BASE_URL={$configBaseUrl}");
 
         $expectedEndpoint = "{$configBaseUrl}/irish-bank/make-transfer";
         $guzzleHttpClientMock = \Mockery::mock(Client::class);
@@ -66,7 +66,7 @@ class MakeTransferTest extends TestCase
     {
         $postData = ['POST_DATA' => 'TEST'];
         $configBaseUrl = 'BASE_URL_TEST';
-        putenv("API_BRAZILIAN_BANK_BASE_URL={$configBaseUrl}");
+        putenv("API_IRISH_BANK_BASE_URL={$configBaseUrl}");
 
         $expectedEndpoint = "{$configBaseUrl}/irish-bank/make-transfer";
         $guzzleHttpClientMock = \Mockery::mock(Client::class);

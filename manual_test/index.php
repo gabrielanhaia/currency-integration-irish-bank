@@ -4,7 +4,7 @@ require_once('../vendor/autoload.php');
 
 use CurrencyFair\IntegrationIrishBank\Integration\{Entity\AccountEntity, Client, Entity\TransferEntity};
 
-putenv('API_BRAZILIAN_BANK_BASE_URL=http://localhost:8001/api');
+putenv('API_IRISH_BANK_BASE_URL=http://localhost:8001/api');
 
 $client = new Client;
 

@@ -23,7 +23,7 @@ class MakeTransfer extends AbstractRequester
     public function makeTransfer(array $transferData): string
     {
         if (empty($this->baseUrlApi)) {
-            throw new \Exception('Base url api must be on the .ENV (API_BRAZILIAN_BANK_BASE_URL)');
+            throw new \Exception('Base url api must be on the .ENV (API_IRISH_BANK_BASE_URL)');
         }
 
         $urlApi = "{$this->baseUrlApi}/irish-bank/make-transfer";
