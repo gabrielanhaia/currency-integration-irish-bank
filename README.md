@@ -34,6 +34,12 @@ The files follow the same structure as [Integration Brazilian Bank](https://gith
 
 Note: It will not be necessary to do that, I had already added as a dependency.
 
+## Running the unit tests
+
+`composer install`
+`php vendor/bin/phpunit`
+
 ## Notes
 
 1. I had already develop a structure similar as that, but much bigger. This structure is working today in a Ecommerce that integrates with more than 200 different kinds of API's.
+2. The CircleCi is running the build and the Unit tests.
