@@ -26,6 +26,6 @@ abstract class AbstractRequester
     public function __construct(GuzzleClient $guzzleClient)
     {
         $this->guzzleClient = $guzzleClient;
-        $this->baseUrlApi = getenv('API_BRAZILIAN_BANK_BASE_URL');
+        $this->baseUrlApi = getenv('API_IRISH_BANK_BASE_URL');
     }
 }
