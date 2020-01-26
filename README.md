@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/gabrielanhaia/currency-integration-brazilian-bank/tree/master.svg?style=svg)](https://circleci.com/gh/gabrielanhaia/currency-integration-brazilian-bank/tree/master)
+
 # Integration with an Irish bank (example for transactions in Euro)
 
 ## Description
